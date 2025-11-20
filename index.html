@@ -21,50 +21,6 @@
             background: #ffffff;
         }
 
-        /* Navigation */
-        .navbar {
-            background: white;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-            padding: 20px 0;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-
-        .navbar .container {
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 40px;
-        }
-
-        .navbar .logo {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            text-decoration: none;
-            color: #1a1a1a;
-            transition: opacity 0.2s ease;
-        }
-
-        .navbar .logo:hover {
-            opacity: 0.8;
-        }
-
-        .navbar .logo img {
-            height: 36px;
-            width: 36px;
-        }
-
-        .navbar .logo-text {
-            font-size: 1.75rem;
-            font-weight: 700;
-            color: #5B4DFF;
-            letter-spacing: -0.5px;
-        }
-
         /* Hero Section */
         .hero {
             background: linear-gradient(135deg, #5B4DFF 0%, #7B6FFF 100%);
@@ -430,18 +386,12 @@
     </style>
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-        <div class="container">
-            <a href="#" class="logo">
-                <img src="images/logo.svg" alt="Publitz Logo">
-                <span class="logo-text">Publitz</span>
-            </a>
-        </div>
-    </nav>
-
     <!-- Hero Section -->
     <section class="hero">
+        <div style="display: flex; align-items: center; justify-content: center; gap: 15px; margin-bottom: 30px;">
+            <img src="images/logo.svg" alt="Publitz Logo" style="height: 60px; width: 60px;">
+            <h1 style="font-size: 5rem; font-weight: 800; letter-spacing: -2px; margin: 0;">Publitz</h1>
+        </div>
         <p class="tagline">AAA Game Publishing Power for Self-Published Studios</p>
         <p class="subtitle">A publishing copilot that turns data into strategy and automates execution across stores</p>
         <a href="mailto:kyle@clayhouse.studio?subject=Publitz%20Pilot%20Audit" class="btn btn-primary">Book Your Pilot</a>
