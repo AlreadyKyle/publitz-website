@@ -24,8 +24,8 @@
         /* Navigation */
         .navbar {
             background: white;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            padding: 15px 0;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            padding: 20px 0;
             position: sticky;
             top: 0;
             z-index: 1000;
@@ -33,30 +33,36 @@
 
         .navbar .container {
             display: flex;
-            justify-content: space-between;
+            justify-content: flex-start;
             align-items: center;
             max-width: 1200px;
             margin: 0 auto;
-            padding: 0 20px;
+            padding: 0 40px;
         }
 
         .navbar .logo {
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 12px;
             text-decoration: none;
             color: #1a1a1a;
+            transition: opacity 0.2s ease;
+        }
+
+        .navbar .logo:hover {
+            opacity: 0.8;
         }
 
         .navbar .logo img {
-            height: 40px;
-            width: auto;
+            height: 36px;
+            width: 36px;
         }
 
         .navbar .logo-text {
-            font-size: 1.5rem;
+            font-size: 1.75rem;
             font-weight: 700;
             color: #5B4DFF;
+            letter-spacing: -0.5px;
         }
 
         /* Hero Section */
@@ -434,7 +440,6 @@
 
     <!-- Hero Section -->
     <section class="hero">
-        <h1>Publitz</h1>
         <p class="tagline">AAA Game Publishing Power for Self-Published Studios</p>
         <p class="subtitle">A publishing copilot that turns data into strategy and automates execution across stores</p>
         <a href="mailto:kyle@clayhouse.studio?subject=Publitz%20Pilot%20Audit" class="btn btn-primary">Book Your Pilot</a>
