@@ -1,9 +1,6 @@
-<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <g transform="translate(10, 15)">
-    <!-- Main airplane shape -->
-    <path d="M10 70 L70 10 L75 15 L50 45 L65 50 L80 35 L85 40 L65 60 L70 75 L55 55 L25 80 L20 75 L30 50 L5 45 L10 70 Z" fill="#5B4DFF"/>
-
-    <!-- Lightning bolt cutout -->
-    <path d="M45 25 L40 40 L48 40 L38 55 L43 43 L35 43 L45 25 Z" fill="white"/>
-  </g>
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Paper airplane with lightning bolt -->
+  <path d="M20 100 L95 25 C97 23 99 25 98 27 L75 60 L90 65 L105 50 C107 48 109 50 108 52 L90 75 L95 90 L80 70 L45 105 C43 107 41 105 42 103 L60 75 L25 60 L20 100 Z" fill="#5B4DFF"/>
+  <!-- Lightning bolt cutout -->
+  <path d="M62 40 L57 55 L65 55 L52 75 L57 62 L49 62 L62 40 Z" fill="white"/>
 </svg>
