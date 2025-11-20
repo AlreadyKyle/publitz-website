@@ -21,6 +21,44 @@
             background: #ffffff;
         }
 
+        /* Navigation */
+        .navbar {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .navbar .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: #1a1a1a;
+        }
+
+        .navbar .logo img {
+            height: 40px;
+            width: auto;
+        }
+
+        .navbar .logo-text {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #5B4DFF;
+        }
+
         /* Hero Section */
         .hero {
             background: linear-gradient(135deg, #5B4DFF 0%, #7B6FFF 100%);
@@ -384,6 +422,16 @@
     </style>
 </head>
 <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="images/logo.svg" alt="Publitz Logo">
+                <span class="logo-text">Publitz</span>
+            </a>
+        </div>
+    </nav>
+
     <!-- Hero Section -->
     <section class="hero">
         <h1>Publitz</h1>
