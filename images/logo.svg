@@ -1,4 +1,6 @@
 <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Simple bold lightning bolt -->
-  <path d="M70 10 L40 60 L55 60 L45 110 L85 50 L65 50 L70 10 Z" fill="white" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Paper airplane shape in white -->
+  <path d="M20 100 L95 25 C97 23 99 25 98 27 L75 60 L90 65 L105 50 C107 48 109 50 108 52 L90 75 L95 90 L80 70 L45 105 C43 107 41 105 42 103 L60 75 L25 60 L20 100 Z" fill="white"/>
+  <!-- Lightning bolt in white -->
+  <path d="M62 40 L57 55 L65 55 L52 75 L57 62 L49 62 L62 40 Z" fill="white"/>
 </svg>
